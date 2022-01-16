@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div>
+            <h1>Parkionson's Detection Using Spiral and Wave Test</h1>
+        </div>
+        <div>
+            <form method="post" enctype="multipart/form-data" action="/submit">
+                <input type="file" name="file">
+                <input type="submit" value="Submit">
+                {% if name=='spiral' %}
+                <select name="test">
+                    <option value="svm-spiral">SVM</option>
+                    <option value="rf-spiral">RF</option>
+                </select>
+                {% endif %}
+                {% if name=='wave'%}
+                <select name="test">
+                    <option value="svm-wave">SVM</option>
+                    <option value="rf-wave">RF</option>
+                </select>
+                {% endif %}
+            </form>   
+            <h1>{{name}}</h1>
+            {% if prediction %}
+            <img src="{{img_path}}" height="400px" width="400px">
+            <h2>Predicted output of {{model}} is : <i>{{prediction}}</i> </h2>
+            {% endif %}
+        </div>
+    </body>
+</html>
