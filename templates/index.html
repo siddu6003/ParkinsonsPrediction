@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Prediction</title>
+        <link rel="stylesheet" href="/static/index.css">
     </head>
     <body>
-        <div>
-            <h1>Parkionson's Detection Using Spiral and Wave Test</h1>
+        <div id="top">
+            <h1 id="title">Parkionson's Detection Using Spiral and Wave Test</h1>
         </div>
-        <div>
+        <div id="mid">
             <form method="post" enctype="multipart/form-data" action="/submit">
                 <input type="file" name="file">
                 <input type="submit" value="Submit">
@@ -23,12 +24,13 @@
                     <option value="rf-wave">RF</option>
                 </select>
                 {% endif %}
-            </form>   
-            <h1>{{name}}</h1>
+            </form> 
+        </div> 
             {% if prediction %}
+            <div id="second">
             <img src="{{img_path}}" height="400px" width="400px">
             <h2>Predicted output of {{model}} is : <i>{{prediction}}</i> </h2>
-            {% endif %}
         </div>
+            {% endif %}
     </body>
 </html>

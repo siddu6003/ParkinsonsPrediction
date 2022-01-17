@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:#e0ffff;
+}
+#top{
+   background-color: grey;
+   display: flex;
+   align-items: center;
+   height: 100px;
+}
+#second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.bn{
+    height: 100px;
+    width : 300px;
+    background-color: blue;
+    font:30px;
+    color: green;
+    margin-right: 100px;
+}
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+}
+#mid{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}

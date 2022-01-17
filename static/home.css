@@ -15,14 +15,6 @@ body{
     align-items: center;
     margin-top: 100px;
 }
-.bn{
-    height: 100px;
-    width : 300px;
-    background-color: blue;
-    font:30px;
-    color: white;
-    margin-right: 100px;
-}
 #title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
@@ -38,4 +30,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.bn{
+    height: 100px;
+    width : 300px;
+    background-color: #e0ffff;
+    font-size:30px;
+    color: green;
+    margin-right: 100px;
+    border-style: none;
 }
