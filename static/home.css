@@ -1,12 +1,13 @@
 body{
     margin: 0%;
     padding: 0%;
+    background-color:#e0ffff;
 }
 #top{
-   background-color: black;
+   background-color: grey;
    display: flex;
-   justify-content: center;
    align-items: center;
+   height: 100px;
 }
 #second{
     display: flex;
@@ -23,7 +24,18 @@ body{
     margin-right: 100px;
 }
 #title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     font-weight: bolder;
-    color: yellow;
+    color: white;
+    margin-left: 20%;
+}
+#mid{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
