@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#top{
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.bn{
+    height: 100px;
+    width : 300px;
+    background-color: blue;
+    font:30px;
+    color: white;
+    margin-right: 100px;
+}
+#title{
+    font-size: large;
+    font-weight: bolder;
+    color: yellow;
+}
